@@ -1,4 +1,6 @@
-export interface Forum {
+import { Mongo } from "./mongo.type";
+
+export interface Forum extends Mongo {
     name: String;
     impressions: any[];
     categories: any[];
