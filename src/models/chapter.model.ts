@@ -1,4 +1,6 @@
-export interface Chapter {
+import { Mongo } from "./mongo.type";
+
+export interface Chapter extends Mongo {
     name: String;
     impressions: any[];
     categories: any[];
