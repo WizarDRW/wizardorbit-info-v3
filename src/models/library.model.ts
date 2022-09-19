@@ -1,4 +1,6 @@
-export interface Library {
+import { Mongo } from "./mongo.type";
+
+export interface Library extends Mongo {
     user_id: String;
     name: String;
     description: String;
