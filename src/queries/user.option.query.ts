@@ -1,4 +1,4 @@
-export const UserQuery = `{
+export const UserOptionQuery = `{
     _id,
     user_id,
     isViewFirstName,
